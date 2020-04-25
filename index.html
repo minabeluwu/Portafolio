@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Portafolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <!-- Fonts -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="header-nav">
+        <img src="./img/LOGO.svg" alt="" class="header-logo" />
+
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="#proyect" class="header-link">Proyectos</a>
+          </li>
+          <li class="header-item">
+            <a href="#skills" class="header-link">Habilidades</a>
+          </li>
+          <li class="header-item">
+            <a href="#training" class="header-link">Formacion</a>
+          </li>
+          <li class="header-item">
+            <a href="" class="header-link">Descargar CV</a>
+          </li>
+        </ul>
+
+        <a href="#contact" class="header-contact">Contacto</a>
+      </nav>
+
+      <div class="header-container">
+        <div class="header-presetation">
+          <h1 class="header-title">Hola! Soy Minabel</h1>
+
+          <div class="header-text">
+            <p class="text-bold">
+              Desarrolladora Front-End, Diseñadora e Ilustradora.
+            </p>
+            <p class="text-normal">
+              Soy muy creativa y siempre aprendo en el camino.
+            </p>
+            <p class="text-yellow">Te invito a ver mi Portafolio.</p>
+            <p class="text-firm">Mina</p>
+          </div>
+        </div>
+
+        <img src="./img/ILUSTRACION.svg" alt=" " class="header-img" />
+      </div>
+    </header>
+
+    <div class="moon-curve"></div>
+
+    <section class="section">
+      <article class="section-proyect" id="proyect">
+        <h2 class="proyect-title">Proyectos</h2>
+
+        <!-- 1 -->
+        <div class="work_image">
+          <img src="./img/billboars.png" alt="">
+        </div>
+        
+
+          <div class="proyect-paragraph">
+            <h3 class="proyect-name">Billboard</h3>
+            <p class="proyect-description">
+              Esta app te permite buscar las carteleras de tus películas, series
+              o juegos favoritos, se consume la API OMDB para consultar y ver
+              los review que ofrece la página IMDB.
+            </p>
+            <p class="proyect-role">Desarrollo Front-End y diseño</p>
+            <p class="proyect-tool">React.js, HTML y CSS</p>
+
+            <a href="https://minabeluwu.github.io/Billboards-app/" target="_blank" class="proyect-button">Ver proyecto</a>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="proyect-container">
+          <div class="work_image">
+            <img src="./img/tareas.png" alt="">
+          </div>
+
+
+          <div class="proyect-paragraph">
+            <h3 class="proyect-name">Lista De Tareas</h3>
+            <p class="proyect-description">
+              Podrás añadir y eliminar tareas en una lista, manejando ciclos de
+              vida en react js, Se realizó además con Sass.
+            </p>
+            <p class="proyect-role">Desarrollo Front-End y diseño</p>
+            <p class="proyect-tool">React.js, HTML y SASS</p>
+
+            <a href="https://minabeluwu.github.io/Task_list/" target="_blank" class="proyect-button">Ver proyecto</a>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="proyect-container">
+          <div class="work_image">
+            <img src="./img/plazaetc.png" alt="">
+          </div>
+
+          
+          <div class="proyect-paragraph">
+            <h3 class="proyect-name">PlazaETC</h3>
+            <p class="proyect-description">
+              App E-comerce en donde se podrá comprar productos o servicios
+              dentro de los establecimientos asociados a dicha app, Se realizó
+              el diseño y maquetado (html y css) de las pantallas internas.
+            </p>
+            <p class="proyect-role">Desarrollo Front-End y diseño</p>
+            <p class="proyect-tool">HTML, CSS y javascript</p>
+
+            <a href="https://www.plazaetc.com/" target="_blank" class="proyect-button">Ver proyecto</a>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="proyect-container">
+          <div class="work_image" id="scroll">
+            <img src="./img/quick.png" alt="">
+          </div>
+
+
+          <div class="proyect-paragraph">
+            <h3 class="proyect-name">Quick</h3>
+            <p class="proyect-description">
+              Una app de taxi, donde puedes acceder como conductor o como
+              pasajero. Se realizó el diseño y maquetado (html y css) de las
+              pantallas internas.
+            </p>
+            <p class="proyect-role">Desarrollo Front-End y diseño</p>
+            <p class="proyect-tool">HTML, CSS Y javascript</p>
+
+            <a href="https://quick.pe/" target="_blank" class="proyect-button">Ver proyecto</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="skills" id="skills">
+        <!-- Technical stack -->
+        <h2 class="skills-title">Technical stack</h2>
+
+        <div class="skills-abilities">
+          <div class="abilities-container">
+            <img src="./img/i-html5.png" class="abilities-img" />
+            <p class="abilities-content">HTML</p>
+          </div>
+
+          <div class="abilities-container">
+            <img src="./img/i-css3.png" class="abilities-img" />
+            <p class="abilities-content">CSS</p>
+            <p class="abilities-additional">(flexbox, css grid, sass)</p>
+          </div>
+
+          <div class="abilities-container">
+            <img src="./img/i-js.png" class="abilities-img" />
+            <p class="abilities-content">JavaScript</p>
+            <p class="abilities-additional">(jquery node.js react.js)</p>
+          </div>
+        </div>
+
+        <!-- Herramientas -->
+        <div class="skills-tool">
+          <h2 class="tool-title">Herramientas</h2>
+
+          <ul class="tool-list">
+            <li class="tool-item">
+              <img src="./img/l-illus.png" class="tool-img" />
+              <p class="tool-content">Illustrator</p>
+            </li>
+
+            <li class="tool-item">
+              <img src="./img/l-photo.png" class="tool-img" />
+              <p class="tool-content">Photoshop</p>
+            </li>
+
+            <li class="tool-item">
+              <img src="./img/l-inkscape.png" class="tool-img" />
+              <p class="tool-content">Inkscape</p>
+            </li>
+
+            <li class="tool-item">
+              <img src="./img/l-git.png" class="tool-img" />
+              <p class="tool-content">Git</p>
+            </li>
+
+            <li class="tool-item">
+              <img src="./img/l-trello.png" class="tool-img" />
+              <p class="tool-content">Trello</p>
+            </li>
+
+            <li class="tool-item">
+              <img src="./img/l-postman.png" class="tool-img" />
+              <p class="tool-content">Postman</p>
+            </li>
+
+            <li class="tool-item">
+              <img src="./img/l-webpack.png" class="tool-img" />
+              <p class="tool-content">webpack</p>
+            </li>
+            <li class="tool-item">
+              <img src="./img/scrum.png" class="tool-img" />
+              <p class="tool-content">Scrum</p>
+            </li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Cursos/Educacion -->
+      <article class="training" id="training">
+        <h2 class="training-title">Formacion</h2>
+
+        <!-- Cursos de platzi -->
+        <div class="training-container">
+          <div class="training-course">
+            <h3 class="course-title">Fundamentos de JavaScript</h3>
+            <p class="course-time">Platzi 2018 - 2019</p>
+            
+            <p class="course-content">
+              • Tipos de variables. •Funciones. • Objetos. • Desestructurar
+              objetos. • Parámetros como referencia o como valor. • Condicionales.
+              • Funciones que retorna un valor. • Arrow functions. • For. • While.
+              • do• while. • switch. • Array. • this. • clases. • funciones como
+              parámetros • asincronismo en javascript. • callbacks • manejando el
+              orden y el asincronismo en javascript. • manejo de errores con
+              callbacks • promesas. • promesas encadenadas. • múltiples promesas en
+              paralelo • Async• await.
+            </p>
+          </div>
+          <div class="training-course">
+            <h3 class="course-title">React.js</h3>
+            <p class="course-time">Platzi 2018 - 2019</p>
+            <p class="course-content">
+              • Que es React. • DOM, Virtual DOM y React DOM. • Create React App y
+              Tipos de Componentes. •JSX. •Props. •métodos del ciclo vida.
+              • State. • Events. • Instalación y configuración de entorno.
+              • Webpack. • Creando una Fake API. • React Hooks: useEffect y
+              useState. • React Hooks. • Custom Hooks. • ProtoTypes.
+            </p>
+          </div>
+          <div class="training-course">
+            <h3 class="course-title">Webpack</h3>
+            <p class="course-time">Platzi 2018 • 2019</p>
+            <p class="course-content">
+              • Concepts. • entry Points. • Output. • Loaders. • Plugins.
+              • Configuration. • Modules. • Module Resolution. • Dependency Graph.
+              • Targets. • The Manifest. • Hot module Replacement. • Why webpack.
+              • Under The Hood.
+            </p>
+          </div>
+
+          <div class="course-logo">
+            <img src="./img/logo-platzi.png" class="course-img" />
+            <div class="course-line"></div>
+          </div>
+        </div>
+
+        <!-- Otros cursos -->
+        <div class="training-container">
+          <div class="training-course">
+            <h3 class="course-title">Diseño de páginas web</h3>
+            <p class="course-time">inces 2017 - 2018</p>
+            <p class="course-content">
+              • tipografía. • imágenes. • videos. • audio. • estructura de una página
+              web. • página de inicio. • navegación de sitios.
+            </p>
+              <img src="./img/logo-inces.png" class="course-img-align" />
+          </div>
+          <div class="training-course">
+            <h3 class="course-title">Product design</h3>
+            <p class="course-time">aerolab 2018 - 2019</p>
+            <p class="course-content">-Definicion de producto. 
+              • conceptos basicos de ux. • proceso de ux.• MVP. 
+              • Vanguardias y tendencias. • bases de la identidad grafica. • branding.
+              • design person. • prototipado . • onboarding. • micro interacciones. 
+              • motion branding. • product marketing.
+            </p>
+              <img src="./img/logo-aerolab.png" class="course-img" />
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-contact" id="contact">
+        <h2 class="contact-title">Contactame</h2>
+
+        <p class="contact-city">Ciudad Autonoma de Buenos Aires</p>
+
+        <div class="contact-redes">
+          <p class="contact-paragraph"> <img src="./img/gmail.svg" alt="" class="contact-icon"> mcanezp@gmail.com</p>
+          <p class="contact-paragraph"> 
+            <img src="./img/linkedin.svg" alt="" class="contact-icon"> 
+            <a href="https://www.linkedin.com/in/minabel-a%C3%B1ez-957675197/" class="contact-paragraph_link" target="_blank">LinkedIn</a> 
+          </p>
+          <p class="contact-paragraph">
+            <img src="./img/github.svg" alt="" class="contact-icon"> 
+            <a href="https://github.com/minabeluwu" class="contact-paragraph_link" target="_blank">GitHub</a>
+          </p>
+          <p class="contact-paragraph"> <img src="./img/skype.svg" alt="" class="contact-icon"> Skype: MAnez</p>
+          <p class="contact-paragraph"> <img src="./img/telegrama.svg" alt="" class="contact-icon"> Telegram: @minabel_anez</p>
+          <p class="contact-paragraph"><img src="./img/phone.svg" alt="" class="contact-icon"> +54 91173634155</p>
+          
+        </div>
+      </div>
+
+      <img src="./img/computadora-chica.svg" alt=" " class="contact-girl" />
+
+      <div class="contact-container">
+        <img src="./img/LOGO.svg" alt="" class="contact-logo" />
+
+        <ul class="contact-list">
+          <li class="contact-item">
+            <a href="#proyect" class="contact-link">Proyectos</a>
+          </li>
+          <li class="contact-item">
+            <a href="#skills" class="contact-link">Habilidades</a>
+          </li>
+          <li class="contact-item">
+            <a href="#training" class="contact-link">Formacion</a>
+          </li>
+          <li class="contact-item">
+            <a href="" class="contact-link">Descargar CV</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
+
+
+
+<!-- Para abrir en otra pestaña = target="_blank" -->

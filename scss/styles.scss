@@ -1,0 +1,18 @@
+@import "_header";
+@import "_presetation";
+@import "_mooncurve";
+@import "_proyect";
+@import "_skills";
+@import "_training";
+@import "_footer";
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}

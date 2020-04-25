@@ -1,0 +1,77 @@
+.skills {
+  background-color: #000839;
+
+  padding: 40px 0 155px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills-title {
+  color: #fff;
+  font-size: 60px;
+}
+.skills-abilities {
+  // outline: 1px solid orchid;
+  width: 60%;
+  margin-bottom: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.abilities-container {
+  // outline: 1px solid palegoldenrod;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.abilities-content {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+
+  margin: 20px 0 0 0;
+}
+.abilities-additional {
+  color: #fff;
+  font-size: 15px;
+}
+
+.skills-tool {
+  border-top: 2px solid #fff;
+
+  width: 60%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tool-title {
+  color: #fff;
+  font-size: 30px;
+}
+.tool-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tool-item {
+  margin-bottom: 20px;
+  width: 300px;
+
+  display: flex;
+}
+.tool-img {
+  margin: 0 10px 0 0;
+  width: 20%;
+}
+.tool-content {
+  color: #fff;
+}
