@@ -12,7 +12,6 @@
   font-size: 60px;
 }
 .skills-abilities {
-  outline: 1px solid orchid;
   width: 60%;
   margin-bottom: 50px;
 
@@ -21,8 +20,6 @@
 }
 
 .abilities-container {
-  // outline: 1px solid palegoldenrod;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,7 +89,6 @@
   }
 
   .tool-img {
-    width: 40px;
-    // height: 30px;
+    width: 30px;
   }
 }
