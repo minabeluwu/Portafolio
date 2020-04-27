@@ -2,6 +2,9 @@
   height: 85vh;
   display: flex;
   justify-content: space-between;
+
+  height: 100vh;
+  
 }
 .header-presetation {
   width: 50%;
@@ -56,28 +59,41 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 1137px) {
+@media screen and (max-width: 999px) {
+  .header-img {
+    display: none;
+  }
+
+  .header-presetation {
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
   .header-container {
     justify-content: start;
   }
   .header-title {
-    font-size: 60px;
     text-align: center;
+
+    font-size: 40px;
   }
   .text-bold {
-    font-size: 25px;
+    font-size: 20px;
+    
     text-align: center;
   }
   .text-normal {
-    font-size: 23px;
+    font-size: 19px;
     text-align: center;
+    
   }
   .text-yellow {
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
   }
   .text-firm {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
   }
 }

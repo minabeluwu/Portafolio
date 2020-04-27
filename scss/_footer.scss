@@ -27,8 +27,6 @@
 
   margin: 30px 0 60px 0;
 }
-.contact-redes {
-}
 
 .contact-paragraph {
   color: #fff;
@@ -83,4 +81,38 @@
   color: #fff;
 
   font-size: 20px;
+}
+
+@media screen and (max-width: 999px) {
+  .footer-contact {
+    width: 90%;
+  }
+
+  .contact-title {
+    font-size: 45px;
+  }
+ 
+  .contact-girl {
+    display: none;
+  }
+
+  .contact-logo {
+    width: 40px;
+    padding: 0;
+  }
+  .contact-list {
+    margin: 0;
+  
+    list-style: none;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .contact-item {
+    margin-left: 10px;
+  } 
+  .contact-link {
+    font-size: 18px;
+  }
 }

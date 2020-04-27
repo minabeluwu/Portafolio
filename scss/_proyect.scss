@@ -1,5 +1,4 @@
-.section-proyect {
-}
+
 .proyect-title {
   font-size: 70px;
   margin: 0 0 50px 50px;
@@ -12,8 +11,12 @@
   padding: 10px 0 10px 30px;
 }
 .proyect-paragraph {
-  width: 40%;
+  width: 80%;
   margin: 0 0 30px 50px;
+
+  padding-bottom: 30px;
+
+  border-bottom: 2px solid #aaa;
 }
 .proyect-name {
   font-size: 40px;
@@ -45,4 +48,16 @@
   padding: 5px 20px 5px 20px;
   border-radius: 50px;
   background-color: #602080;
+}
+
+@media screen and (max-width: 999px) {
+  .proyect-title {
+    font-size: 45px;
+  }
+
+  .work_image img{
+    width: 700px;
+  }
+
+  
 }

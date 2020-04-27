@@ -20,25 +20,33 @@
 
   <body>
     <header class="header">
+      
       <nav class="header-nav">
-        <img src="./img/LOGO.svg" alt="" class="header-logo" />
 
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="#proyect" class="header-link">Proyectos</a>
-          </li>
-          <li class="header-item">
-            <a href="#skills" class="header-link">Habilidades</a>
-          </li>
-          <li class="header-item">
-            <a href="#training" class="header-link">Formacion</a>
-          </li>
-          <li class="header-item">
-            <a href="./cv_mina.pdf" class="header-link" download>Descargar CV</a>
-          </li>
-        </ul>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="./img/menu.png" alt="" width="40px"></label>
 
+          <img src="./img/LOGO.svg" alt="" class="header-logo" />
+        
+        <div class="menu">
+          <ul class="header-list">
+            <li class="header-item">
+              <a href="#proyect" class="header-link">Proyectos</a>
+            </li>
+            <li class="header-item">
+              <a href="#skills" class="header-link">Habilidades</a>
+            </li>
+            <li class="header-item">
+              <a href="#training" class="header-link">Formacion</a>
+            </li>
+            <li class="header-item">
+              <a href="./cv_mina.pdf" class="header-link" download>Descargar CV</a>
+            </li>
+          </ul>
+        </div>
+          
         <a href="#contact" class="header-contact">Contacto</a>
+
       </nav>
 
       <div class="header-container">
@@ -151,7 +159,7 @@
 
       <article class="skills" id="skills">
         <!-- Technical stack -->
-        <h2 class="skills-title">Technical stack</h2>
+        <h2 class="skills-title">Habilidades</h2>
 
         <div class="skills-abilities">
           <div class="abilities-container">
@@ -221,7 +229,7 @@
 
       <!-- Cursos/Educacion -->
       <article class="training" id="training">
-        <h2 class="training-title">Formacion</h2>
+        <h2 class="training-title">Formación</h2>
 
         <!-- Cursos de platzi -->
         <div class="training-container">
@@ -277,7 +285,7 @@
               • tipografía. • imágenes. • videos. • audio. • estructura de una página
               web. • página de inicio. • navegación de sitios.
             </p>
-              <img src="./img/logo-inces.png" class="course-img-align" />
+              <img src="./img/logo-inces.png" class="course-img" />
           </div>
           <div class="training-course">
             <h3 class="course-title">Product design</h3>
@@ -338,13 +346,5 @@
         </ul>
       </div>
     </footer>
-
-    <script src="index.js"></script>
   </body>
 </html>
-
-
-
-
-
-<!-- Para abrir en otra pestaña = target="_blank" -->
